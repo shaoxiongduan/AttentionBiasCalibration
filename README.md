@@ -4,19 +4,19 @@ Repo for the paper ```From Interpolation to Extrapolation: Complete Length Gener
 
 ## File hierarchy
 The files are partitioned into two main parts:
-1. src: This contains all the source code for the project
-2. exp: This contains all the experiments and plots generated
+1. ```src```: This contains all the source code for the project
+2. ```exp```: This contains all the experiments and plots generated
 
 In the exp folder, there are 3 files:
-config.ini: The configuration for that particular experiment
-train.log: Generated upon running, this file stores the accuracy data with respect to epochs
-models: This file stores all the trained epochs in the form of a .ckpt file, which could be directly loaded via PyTorch
+```config.ini```: The configuration for that particular experiment
+```train.log```: Generated upon running, this file stores the accuracy data with respect to epochs
+```models/```: Files in this folder stores all the trained epochs in the form of a .ckpt file, which could be directly loaded via PyTorch
 
 # How to Use
 
 ## Installation
 Python: 3.10.4
-Library requirements: see requirements.txt
+Library requirements: see ```requirements.txt```
 
 ## Running the Code
 
