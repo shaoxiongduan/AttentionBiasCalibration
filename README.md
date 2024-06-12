@@ -4,24 +4,25 @@ Repo for the paper ```From Interpolation to Extrapolation: Complete Length Gener
 
 ## File hierarchy
 The files are partitioned into two main parts:
+
 1. ```src```: This contains all the source code for the project
 2. ```exp```: This contains all the experiments and plots generated
 
 In the exp folder, there are 3 files:
-```config.ini```: The configuration for that particular experiment
-```train.log```: Generated upon running, this file stores the accuracy data with respect to epochs
+
+```config.ini```: The configuration for that particular experiment \
+```train.log```: Generated upon running, this file stores the accuracy data with respect to epochs \
 ```models/```: Files in this folder stores all the trained epochs in the form of a .ckpt file, which could be directly loaded via PyTorch
 
-# How to Use
 
-## Installation
+# Installation
 Python: 3.10.4
 
 Library requirements: see ```requirements.txt```
 
-## Running the Code
+# Running the Code
 
-### Train for Interpolation
+## Train for Interpolation
 
 To create and run a model, follow the steps below:
 1. Create a folder containing the config.ini file
@@ -47,7 +48,7 @@ You might need to change the port number when running multiple experiments at on
 
 See the ```./exp``` folder for more details.
 
-### Create Bias
+## Create Bias
 
 To create the attention bias matrix, follow the steps below:
 1. First train a model with LOAD_WINDOW set to false
@@ -74,7 +75,7 @@ python ./src/calcBias.py \
 
 4. The bias tensors should be stored in your specified attention bias save path, and the attention plots should be saved in the plot save path.
 
-### Retrain with bias
+## Retrain with bias
   
 5. Create a new model using the steps mentioned previously, this time set ```LOAD_WINDOW``` to true and fill in the paths with the matrices saved in step 4
 6. Train the new model, it should achieve good accuracy much faster
@@ -102,4 +103,3 @@ Note that in order for an effective bias to be created, the model must first suc
 In some cases, when retraining with the bias on, it is necessary to make sure that the model does not overfit. From my experience the optimal model epoch is around 4.
 
 
-Email: shaoxiongduan@gmail.com. Contact me if you have questions.
