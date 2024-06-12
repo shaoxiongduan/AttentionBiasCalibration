@@ -1,0 +1,6 @@
+nohup /bin/python3 -u ../../src/train.py  ./head-8-enc-3-dec-3-emb-128-batch-512-drop-0.3.ini 128 -g 3 > train.log 2>&1 &
+
+
+nohup /bin/python3 -u ../../src/test.py  ./head-8-enc-6-dec-3-emb-512-batch-1024-drop-0.3.ini ./model/xxx 112*1024 128*1024+10000 -g 3 > test.log 2>&1 &
+
+CUDA_VISIBLE_DEVICES=0 nohup torchrun  ../../src/train.py  ./head-8-enc-3-dec-3-emb-128-batch-512-drop-0.3.ini 128 > train.log 2>&1 &

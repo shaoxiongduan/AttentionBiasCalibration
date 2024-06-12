@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 nohup torchrun --rdzv-endpoint 0.0.0.0:29544 ../../src/train.py  ./head-8-enc-3-dec-3-emb-128-batch-512-drop-0.3.ini 256 > train.log 2>&1 &

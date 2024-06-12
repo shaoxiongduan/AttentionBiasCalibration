@@ -25,8 +25,8 @@ Library requirements: see ```requirements.txt```
 ## Train for Interpolation
 
 To create and run a model, follow the steps below:
-1. Create a folder containing the config.ini file
-2. Specify the parameters in the config file
+1. Create a folder containing the ```config.ini``` file
+2. Specify the parameters in the config file (see example in the folders in ```/exp```)
 3. Switch to that folder: 
 ```bash
 cd ./exp/your_folder_name
@@ -51,7 +51,7 @@ See the ```./exp``` folder for more details.
 ## Create Bias
 
 To create the attention bias matrix, follow the steps below:
-1. First train a model with LOAD_WINDOW set to false
+1. First train a model with ```LOAD_WINDOW``` set to false
 2. Change the paths in the getBias.py program to the model you just trained
 3. Run ```getBias.py``` with the following command: 
 ```bash
@@ -77,7 +77,7 @@ python ./src/calcBias.py \
 
 ## Retrain with bias
   
-5. Create a new model using the steps mentioned previously, this time set ```LOAD_WINDOW``` to true and fill in the paths with the matrices saved in step 4
+5. Create a new model using the steps mentioned previously, this time set ```LOAD_WINDOW``` to true in the ```config.ini``` file and fill in the paths with the matrices saved in step 4
 6. Train the new model, it should achieve good accuracy much faster
 7. Evaluate the model by running ```eval.py``` with the following command: 
 ```bash

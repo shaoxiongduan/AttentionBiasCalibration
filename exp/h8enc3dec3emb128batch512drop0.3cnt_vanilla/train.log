@@ -1,0 +1,152 @@
+nohup: ignoring input
+Initializing config from ./head-8-enc-3-dec-3-emb-128-batch-512-drop-0.3.ini ...
+==============================
+BASE: 10, FIXED_LEN: 50, SOS: ^, EOS: $, PAD: @
+Vocalbulary: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '$', '^', '@', '+', '-', '*', '/']
+Vocalbulary: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '$', '^', '@', '+', '-', '*', '/']
+Looked-up tokens: ['$', '*', '+', '-', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '@', '^']
+Token indices: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 0, 16, 15, 2, 3, 1, 4]
+MAX_NUM: 1048576, split_ratio: 0.875, BATCH_SIZE: 512, REVERSE_INPUT: False
+EMB_SIZE: 128, NHEAD: 8, FFN_HID_DIM: 512, NUM_ENCODER_LAYERS: 3,            NUM_DECODER_LAYERS: 3, DROP_OUT: 0.3, ATTN_WINDOW: -1
+DEVICE: cuda
+FREEZE_EMBEDDING: False
+POSITION_ENCODING: Sinusoidal
+=================
+1048576
+50
+512
+0.3
+-1
+Training for 128 epochs, each having 1792.0 batches
+Epoch: 1, Train loss: 0.000387, Val loss: 0.000016, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.122s
+Epoch: 2, Train loss: 0.000062, Val loss: 0.000001, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.493s
+Epoch: 3, Train loss: 0.000025, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.448s
+Epoch: 4, Train loss: 0.000015, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.678s
+Epoch: 5, Train loss: 0.000010, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.712s
+Epoch: 6, Train loss: 0.000007, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.668s
+Epoch: 7, Train loss: 0.000005, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.168s
+Epoch: 8, Train loss: 0.000004, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.084s
+Epoch: 9, Train loss: 0.000003, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.129s
+Epoch: 10, Train loss: 0.000002, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.308s
+Epoch: 11, Train loss: 0.000002, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.455s
+Epoch: 12, Train loss: 0.000002, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.235s
+Epoch: 13, Train loss: 0.000002, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.580s
+Epoch: 14, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.278s
+Epoch: 15, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.405s
+Epoch: 16, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.171s
+Epoch: 17, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.163s
+Epoch: 18, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.047s
+Epoch: 19, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.325s
+Epoch: 20, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.488s
+Epoch: 21, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.276s
+Epoch: 22, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.932s
+Epoch: 23, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.827s
+Epoch: 24, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.233s
+Epoch: 25, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.416s
+Epoch: 26, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.148s
+Epoch: 27, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.548s
+Epoch: 28, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.463s
+Epoch: 29, Train loss: 0.000001, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.169s
+Epoch: 30, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.849s
+Epoch: 31, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.240s
+Epoch: 32, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.112s
+Epoch: 33, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.158s
+Epoch: 34, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.587s
+Epoch: 35, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.474s
+Epoch: 36, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.562s
+Epoch: 37, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.276s
+Epoch: 38, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.999s
+Epoch: 39, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.577s
+Epoch: 40, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.171s
+Epoch: 41, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.302s
+Epoch: 42, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.343s
+Epoch: 43, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.305s
+Epoch: 44, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.021s
+Epoch: 45, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.196s
+Epoch: 46, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.637s
+Epoch: 47, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.802s
+Epoch: 48, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.194s
+Epoch: 49, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.451s
+Epoch: 50, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.392s
+Epoch: 51, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.643s
+Epoch: 52, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.254s
+Epoch: 53, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.440s
+Epoch: 54, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.935s
+Epoch: 55, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.932s
+Epoch: 56, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.808s
+Epoch: 57, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.120s
+Epoch: 58, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.079s
+Epoch: 59, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.990s
+Epoch: 60, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.031s
+Epoch: 61, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.314s
+Epoch: 62, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 80.428s
+Epoch: 63, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.783s
+Epoch: 64, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.533s
+Epoch: 65, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 80.307s
+Epoch: 66, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.649s
+Epoch: 67, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.010s
+Epoch: 68, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 80.945s
+Epoch: 69, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.646s
+Epoch: 70, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.374s
+Epoch: 71, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.546s
+Epoch: 72, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.602s
+Epoch: 73, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.845s
+Epoch: 74, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.239s
+Epoch: 75, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.891s
+Epoch: 76, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.854s
+Epoch: 77, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.943s
+Epoch: 78, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.517s
+Epoch: 79, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.563s
+Epoch: 80, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.229s
+Epoch: 81, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.357s
+Epoch: 82, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.667s
+Epoch: 83, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.939s
+Epoch: 84, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.959s
+Epoch: 85, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.685s
+Epoch: 86, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.433s
+Epoch: 87, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 80.498s
+Epoch: 88, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 79.154s
+Epoch: 89, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.798s
+Epoch: 90, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.273s
+Epoch: 91, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.971s
+Epoch: 92, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.939s
+Epoch: 93, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.082s
+Epoch: 94, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.970s
+Epoch: 95, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.198s
+Epoch: 96, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.859s
+Epoch: 97, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.095s
+Epoch: 98, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.303s
+Epoch: 99, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.785s
+Epoch: 100, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.919s
+Epoch: 101, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.209s
+Epoch: 102, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.094s
+Epoch: 103, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.972s
+Epoch: 104, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.056s
+Epoch: 105, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.056s
+Epoch: 106, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.854s
+Epoch: 107, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.290s
+Epoch: 108, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.904s
+Epoch: 109, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.426s
+Epoch: 110, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.111s
+Epoch: 111, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.037s
+Epoch: 112, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.090s
+Epoch: 113, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.859s
+Epoch: 114, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.970s
+Epoch: 115, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.151s
+Epoch: 116, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.031s
+Epoch: 117, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.114s
+Epoch: 118, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.332s
+Epoch: 119, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.240s
+Epoch: 120, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.055s
+Epoch: 121, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.557s
+Epoch: 122, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.843s
+Epoch: 123, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.132s
+Epoch: 124, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.233s
+Epoch: 125, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.359s
+Epoch: 126, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 77.951s
+Epoch: 127, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.617s
+Epoch: 128, Train loss: 0.000000, Val loss: 0.000000, Train acc:  0.000000, Val acc:  0.000000, Epoch time = 78.077s
+cuda
+0000000000000000000000000000000000000000000012346
+Evaluating ...
+beyond: 10, beyond_acc: 1.000000
