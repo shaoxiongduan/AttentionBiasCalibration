@@ -1,5 +1,5 @@
 # From Interpolation to Extrapolation: Complete Length Generalization for Arithmetic Transformers
-Repo for the paper ```From Interpolation to Extrapolation: Complete Length Generalization for Arithmetic Transformers```. Attention Bias Calibration is a method of attention biasing that enables near-perfect accuracies (>99%) on sequences up to 10 times longer than the maximum training length in certain arithmetic tasks. For more information see [Arxiv link](https://arxiv.org/abs/2310.11984)
+Repo for the paper ```From Interpolation to Extrapolation: Complete Length Generalization for Arithmetic Transformers```. Attention Bias Calibration is a method of attention biasing that enables near-perfect accuracies (>99%) on sequences up to 10 times longer than the maximum training length (SOTA) in certain arithmetic tasks. For more information see [Arxiv link](https://arxiv.org/abs/2310.11984)
 
 
 ## File hierarchy
